@@ -2,7 +2,7 @@ from fastapi import FastAPI
 
 def create_app() -> FastAPI:
     aplicattion = FastAPI(
-        title="Aula ackend",
+        title="Aula Backend",
         description="FastApi",
         version="0.0.1"
     )
