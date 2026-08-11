@@ -3,4 +3,3 @@ class Post:
         self.id = id
         self.title = title
         self.content = content
-        self.author = author
