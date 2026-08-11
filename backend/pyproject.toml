@@ -13,3 +13,10 @@ dependencies = [
     "email-validator>=2.3.0",
     "alembic>=1.18.4"
 ]
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-async>=0.24.0",
+    "pytest-conv>=7.1.0",
+    "httpx>=0.28.0"
+]
