@@ -5,7 +5,7 @@ class Password:
         self.value = value
 
     def _is_valid(self, password: str) -> bool:
-        return len(password) >= 8 and any(c.isalpha() for c in password) and any(c.isdigit() for c in password))
+        return len(password) >= 8 and any(c.isalpha() for c in password) and any(c.isdigit() for c in password)
 
     def _eq_(self, other) -> bool:
         return isinstance(other, Password) and self.value == other.value
