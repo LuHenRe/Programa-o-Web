@@ -6,7 +6,7 @@ ENV TZ=America/Sao_Paulo
 COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
 
 COPY pyproject.toml ./
-RUN uv sync
+RUN pip install .
 
 COPY . .
 RUN uv sync
