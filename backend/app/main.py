@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from app.infra.models import UserModel, PostModel
 
 def create_app() -> FastAPI:
     aplicattion = FastAPI(
