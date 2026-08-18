@@ -1,6 +1,6 @@
 class Password:
     def __init__(self, value: str) -> None:
-        if not self._is_valid():
+        if not self._is_valid(value):
             raise ValueError("Senha inválida")
         self.value = value
 
