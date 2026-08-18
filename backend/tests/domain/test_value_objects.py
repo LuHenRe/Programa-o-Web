@@ -7,8 +7,8 @@ def test_email_creation():
     assert email.value == "test@example.com"
 
 def test_password_creation():
-    password = Password("password")
-    assert password.value == "password"
+    password = Password("password123")
+    assert password.value == "password123"
 
 def test_email_validation():
     with pytest.raises(ValueError):
